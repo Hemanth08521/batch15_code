@@ -1,0 +1,11 @@
+version : 2
+sources :
+  - name: datafeed_shared_schema
+    database: Sales
+    schema : PUBLIC
+    tables: 
+      - name: TCS_SALES
+        columns:
+          - name: CUSTOMER_ID  
+            tests:
+              - unique
