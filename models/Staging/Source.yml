@@ -9,3 +9,4 @@ sources :
           - name: CUSTOMER_ID  
             tests:
               - unique
+      - name: contacts
