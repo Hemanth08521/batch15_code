@@ -10,3 +10,4 @@ sources :
             tests:
               - unique
       - name: contacts
+      - name: check_data
