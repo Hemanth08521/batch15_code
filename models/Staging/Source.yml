@@ -11,3 +11,6 @@ sources :
               - unique
       - name: contacts
       - name: check_data
+      - name: AGENTS
+      - name: sales_events
+      - name: employee_events
