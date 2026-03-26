@@ -1,7 +1,7 @@
 version : 2
 sources :
   - name: datafeed_shared_schema
-    database: Sales
+    database: SNOWFLAKE_LEARNING_DB
     schema : PUBLIC
     tables: 
       - name: TCS_SALES
@@ -14,3 +14,5 @@ sources :
       - name: AGENTS
       - name: sales_events
       - name: employee_events
+      - name: samp1
+      - name: samp2
